@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // imgParent = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGU57yGujJ6MSt9xUpfBcLDaM1_Zh7vSTujFBiviDquzFvMdi8Zx4vx-0KPonopKG2368&usqp=CAU';
   imgParent = '';
+
+  onLoaded(img: string) {
+    console.log('log padre => ', img );
+  }
 }
